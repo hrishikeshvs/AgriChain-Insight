@@ -4,8 +4,6 @@
 - Dart SDK Version 2.18.0 or greater
 - Flutter SDK Version 3.3.0 or greater
 
-
-
 ### Application Structure
 - **android:** Files for Android platform
 - **assets:** Images and fonts
@@ -25,17 +23,25 @@
 ### Running the Application
 1. Install Dart SDK and Flutter SDK.
 2. Clone the repository:
-
 git clone https://github.com/hrishikeshvs/AgriChain-Insight.git
 
+css
+Copy code
 3. Navigate to the project directory:
-    cd AgriChain-Insight
+cd AgriChain-Insight
+
+markdown
+Copy code
 4. Get dependencies:
-    flutter pub get
+flutter pub get
+
+markdown
+Copy code
 5. Run the application:
-    flutter run
+flutter run
 
-
+markdown
+Copy code
 
 ### Novel Features
 - Real-time weather forecasts and soil quality analysis for informed farming decisions.
@@ -52,5 +58,3 @@ Farmers, agriculture enthusiasts, and agricultural businesses seeking data-drive
 
 ### Support
 For any queries or assistance, please reach out to our support team.
-
-    
