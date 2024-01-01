@@ -1,98 +1,56 @@
+# AgriChain Insight
 
-# hrishikesh_s_application1
-### Table of contents
-- [System requirements](#system-requirements)
-- [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
-- [Check the UI of the entire app](#app-navigations)
-- [Application structure](#project-structure)
-- [How to format your code?](#how-you-can-do-code-formatting)
-- [How you can improve code readability?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [How to run the application](#how-to-run-the-application)
-- [Support](#support)
-
-### System requirements
-
-Dart SDK Version 2.18.0 or greater.
-Flutter SDK Version 3.3.0 or greater.
-
-### Figma design guidelines for better UI accuracy
-
-Read our guidelines to increase the accuracy of design-to-code conversion by optimizing Figma designs.
-https://docs.dhiwise.com/docs/Designguidelines/intro
-
-### Check the UI of the entire app
-
-Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
-
-### Application structure
-
-After a successful build, your application structure should look like this:
+### System Requirements
+- Dart SDK Version 2.18.0 or greater
+- Flutter SDK Version 3.3.0 or greater
 
 
 
-```
-.
-├── android                         - It contains files required to run the application on an Android platform.
-├── assets                          - It contains all images and fonts of your application.
-├── ios                             - It contains files required to run the application on an iOS platform.
-├── lib                             - Most important folder in the application, used to write most of the Dart code..
-    ├── main.dart                   - Starting point of the application
-    ├── core
-    │   ├── app_export.dart         - It contains commonly used file imports
-    │   ├── constants               - It contains static constant class file
-    │   └── utils                   - It contains common files and utilities of the application
-    ├── presentation                - It contains widgets of the screens 
-    ├── routes                      - It contains all the routes of the application
-    └── theme                       - It contains app theme and decoration classes
-    └── widgets                     - It contains all custom widget classes
-```
+### Application Structure
+- **android:** Files for Android platform
+- **assets:** Images and fonts
+- **ios:** Files for iOS platform
+- **lib:** Core Dart code, including:
+  - `main.dart`: Application starting point
+  - `core`, `presentation`, `routes`, `theme`, `widgets`: Organized code segments
 
-### How to format your code?
+### Code Formatting & Readability
+- Format your code: `dart format .`
+- Enhance readability by resolving application errors and warnings.
 
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
+### Libraries & Tools Used
+- **BLoC:** State management ([bloclibrary.dev](https://bloclibrary.dev))
+- **cached_network_image:** Caching internet images ([cached_network_image](https://pub.dev/packages/cached_network_image))
 
-How you can improve code readability?
-Resolve the errors and warnings that are shown in the application.
+### Running the Application
+1. Install Dart SDK and Flutter SDK.
+2. Clone the repository:
 
-Libraries and tools used
-    * BLoC - State management
-    *https://bloclibrary.dev
-    *cached_network_image - For storing internet images into the cache
-    *https://pub.dev/packages/cached_network_image
-
-    
-### How to run the application
-
-1. Make sure you have Dart SDK and Flutter SDK installed.
-2. Clone this repository to your local machine:
-
-```bash
 git clone https://github.com/hrishikeshvs/AgriChain-Insight.git
 
-Navigate to the project directory:
-cd AgriChain-Insight
-
-Run the following commands to get dependencies and run the application:
-flutter pub get
-flutter run
-
- 
+3. Navigate to the project directory:
+    cd AgriChain-Insight
+4. Get dependencies:
+    flutter pub get
+5. Run the application:
+    flutter run
 
 
 
+### Novel Features
+- Real-time weather forecasts and soil quality analysis for informed farming decisions.
+- Economic insights and market trends for better financial planning.
+- Drone monitoring and community engagement for collaborative farming.
 
+### Target Audience
+Farmers, agriculture enthusiasts, and agricultural businesses seeking data-driven insights for improved crop yield, economic planning, and community collaboration.
 
+### Benefits for People
+- Empowers farmers with data-driven insights for crop optimization.
+- Facilitates informed financial decisions through market trend analysis.
+- Fosters a collaborative farming community through engagement and shared resources.
 
+### Support
+For any queries or assistance, please reach out to our support team.
 
-
-
-
-
-
-
-
-
+    
