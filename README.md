@@ -2,11 +2,13 @@
 # hrishikesh_s_application1
 ### Table of contents
 - [System requirements](#system-requirements)
+- [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
 - [Check the UI of the entire app](#app-navigations)
 - [Application structure](#project-structure)
 - [How to format your code?](#how-you-can-do-code-formatting)
 - [How you can improve code readability?](#how-you-can-improve-the-readability-of-code)
 - [Libraries and tools used](#libraries-and-tools-used)
+- [How to run the application](#how-to-run-the-application)
 - [Support](#support)
 
 ### System requirements
@@ -25,7 +27,9 @@ Check the UI of all the app screens from a single place by setting up the 'initi
 
 ### Application structure
 
-After successful build, your application structure should look like this:
+After a successful build, your application structure should look like this:
+
+
 
 ```
 .
@@ -51,17 +55,44 @@ After successful build, your application structure should look like this:
   dart format .
   ```
 
-### How you can improve code readability?
-
+How you can improve code readability?
 Resolve the errors and warnings that are shown in the application.
 
-### Libraries and tools used
+Libraries and tools used
+    * BLoC - State management
+    *https://bloclibrary.dev
+    *cached_network_image - For storing internet images into the cache
+    *https://pub.dev/packages/cached_network_image
 
-- BLoC - State management
-  https://bloclibrary.dev
-- cached_network_image - For storing internet image into cache
-  https://pub.dev/packages/cached_network_image
+    
+### How to run the application
 
-### Support
+1. Make sure you have Dart SDK and Flutter SDK installed.
+2. Clone this repository to your local machine:
 
-If you have any problems or questions, go to our Discord channel, where we will help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
+```bash
+git clone https://github.com/hrishikeshvs/AgriChain-Insight.git
+
+Navigate to the project directory:
+cd AgriChain-Insight
+
+Run the following commands to get dependencies and run the application:
+flutter pub get
+flutter run
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
