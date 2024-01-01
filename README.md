@@ -21,15 +21,12 @@
 - **cached_network_image:** Caching internet images ([cached_network_image](https://pub.dev/packages/cached_network_image))
 
 ### Running the Application
-1. Install Dart SDK and Flutter SDK.
-2. Clone the repository:
-   git clone https://github.com/hrishikeshvs/AgriChain-Insight.git
-3. Navigate to the project directory:
-   cd AgriChain-Insight
-4. Get dependencies:
-   flutter pub get
-5. Run the application:
-   flutter run
+- Install Dart SDK and Flutter SDK.
+- Clone the repository: `git clone https://github.com/hrishikeshvs/AgriChain-Insight.git`
+- Navigate to the project directory: `cd AgriChain-Insight`
+- Get dependencies: `flutter pub get`
+- Run the application: `flutter run`
+
 
 ### Novel Features
 - Real-time weather forecasts and soil quality analysis for informed farming decisions.
